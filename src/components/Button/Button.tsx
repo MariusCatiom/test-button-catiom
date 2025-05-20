@@ -16,7 +16,8 @@ const Button:FC<Props> = ({children}) => {
       onClick={logFn}
       style={{
         padding: '10px',
-        background: 'red',
+        background: 'purple',
+        borderRadius: '10px',
     }}>{children}</button>
   );
 };

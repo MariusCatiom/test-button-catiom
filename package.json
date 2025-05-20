@@ -1,6 +1,6 @@
 {
   "name": "test-button-catiom",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Test button",
   "main": "dist/cjs/index.js",
   "files": [

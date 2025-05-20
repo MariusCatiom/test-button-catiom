@@ -5,11 +5,18 @@ interface Props {
 }
 
 const Button:FC<Props> = ({children}) => {
+
+  const logFn = () => {
+    console.log("buttonClicked")
+  }
+
   return (
-    <button onClick={() => {
-      console.log("button clicked")
-    }} style={{
-      padding: '10px',
+    <button
+      type="button"
+      onClick={logFn}
+      style={{
+        padding: '10px',
+        background: 'red',
     }}>{children}</button>
   );
 };

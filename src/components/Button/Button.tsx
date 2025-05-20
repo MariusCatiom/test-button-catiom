@@ -6,7 +6,9 @@ interface Props {
 
 const Button:FC<Props> = ({children}) => {
   return (
-    <button style={{
+    <button onClick={() => {
+      console.log("button clicked")
+    }} style={{
       padding: '10px',
     }}>{children}</button>
   );
